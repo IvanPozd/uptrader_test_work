@@ -1,0 +1,7 @@
+services:
+  web: 
+    build:
+      context: aptrader_site
+      target: builder
+    ports: 
+      - '8000:8000'
