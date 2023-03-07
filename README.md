@@ -35,3 +35,17 @@ cd uptrader_test_work
 ```bash
 docker-compose up -d
 ```
+
+## Для доступа к админ-панели создайте суперюзера
+
+```bash
+docker exec -it container_id python manage.py createsuperuser
+```
+
+Далее проходим по ссылке
+
+[Django_App/admin](http://localhost:8000/admin)
+
+## Для доступа к приложению
+
+[Django_App](http://localhost:8000)
